@@ -1,0 +1,69 @@
+@charset "utf-8";
+/*p {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}*/
+
+/*
+p,
+li,
+h1{
+    color: red;
+}*/
+
+/*---
+body {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+  }
+---*/
+
+html{
+    font-size: 12px;/* px は「ピクセル」 (pixels) の意味。ベースフォントサイズは 10 ピクセルの高さになった */
+    font-family: 'Noto Sans JP', sans-serif;/* これが Google フォントから取得した残りの出力になるはず。 */
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+p,
+li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+html{
+    background-color: #F5F5F5;
+    /*background-color: wthie;*/
+
+}
+
+body{
+    width: 780px;/*bodyの中の要素のよこ幅を指定してる。たては自動。*/
+    margin: 20px auto 100px;/*bodyの中の要素の外側の領域を指定してる。*/
+    background-color: #DFD7BF;/*bodyの背景色を指定*/
+    padding: 0 120px 20px 120px;/*bodyの中の要素のまわりの領域を指定*/
+    border: 5px solid black;/*bodyの要素の周りのボーダー、枠を指定*/
+    box-shadow: 3px 3px 10px gray;
+}
+
+h1{
+    margin: 0;
+    padding: 25px 0;
+    color: #42291c;
+    text-shadow: 3px 3px 10px gray;/*右へ、下へ、ぼかし、色*/
+}
+
+img{
+    display: block;
+    margin: 30px auto;
+    border: 0.5px solid black;/*borderの順番、幅、スタイル、色*/
+    box-shadow: 3px 3px 10px gray;/*右、下、ぼかし、色*/
+    width: 500px;
+    height: 500px;
+}
