@@ -26,7 +26,7 @@ function setUserName() {
     localStorage.setItem("name", myName);
     //localStorageというAPIを呼び出して、setitem関数()を使い
     //nameタグを作って、myNameに入っているデータを格納
-    myHeading.textContent = `Mzilla はかっこいいよ、${myName}さん、Mozilla はかっこいいよ。`;
+    myHeading.textContent = `キミ はかっこいいよ、${myName}さん、キミが、勇者だね。`;
     //見出しh1を参照する。を格納したmyHeadingへ
     //テキストとlocalStorageのnameタグに格納したmyNameを格納
 }
@@ -36,7 +36,7 @@ if (!localStorage.getItem("name")) {
     setUserName();
 } else {
     const storedName = localStorage.getItem("name");
-    myHeading.textContent = `Mozilla はかっこいいよ、${storedName}`;
+    myHeading.textContent = `待っていたよ勇者、「${storedName}」`;
 }
 
 myButton.onclick = () => {
